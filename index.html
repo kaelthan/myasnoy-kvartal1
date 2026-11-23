@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мясной Квартал — главная</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <nav class="top-nav">
+        <a href="index.html">главная</a>
+        <a href="burgers.html">меню</a>
+      </nav>
+      <a href="index.html" class="logo">Мясной<br>Квартал</a>
+      <nav class="top-nav">
+        <a href="contacts.html">контакты</a>
+      </nav>
+      <div class="auth">
+        <a href="register.html">Вход</a>
+        <a href="register.html">регистрация</a>
+      </div>
+      <a href="cart.html" class="cart">
+        <svg viewBox="0 0 60 48" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 4 h8 l6 26 h32 l7 -19 H14"/>
+          <circle cx="21" cy="40" r="4"/>
+          <circle cx="42" cy="40" r="4"/>
+        </svg>
+      </a>
+    </header>
+
+    <!-- Категории -->
+    <div class="categories">
+      <button onclick="location='grill.html'">Гриль</button>
+      <button onclick="location='zakuski.html'">Закуски</button>
+      <button onclick="location='index.html'">Супы</button>
+      <button onclick="location='salaty.html'">Салаты</button>
+      <button onclick="location='grill.html'">Блюда и гриль</button>
+      <button onclick="location='burgers.html'">бургеры</button>
+      <button onclick="location='grill.html'">Стейки</button>
+      <button onclick="location='grill.html'">Горячие блюда</button>
+      <button onclick="location='napitki.html'">Напитки</button>
+    </div>
+
+    <!-- Поиск и заказ -->
+    <div class="search-row">
+      <div class="search">
+        <input type="text" placeholder="Поиск по меню...">
+        <button>🔍</button>
+      </div>
+      <a href="order.html" class="order-btn">заказать</a>
+    </div>
+
+    <!-- Фото блюда -->
+    <div style="text-align:center; margin-top:30px;">
+      <img src="https://images.gastronom.ru/ETbIx0DoXjVe8vLyNIfm7yd43J6i5QCah7yCxUWYoWU/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzL2YxMmNkNGI5LTVlNjYtNDcxNC05M2M1LTA3NmUzMzdhN2E5Yy5qcGc.webp" alt="Стейк на гриле" style="width:60%; border-radius:4px;">
+    </div>
+
+    <footer>
+      Адрес - Репина 53
+    </footer>
+
+  </div>
+</body>
+</html>
